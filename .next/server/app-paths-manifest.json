@@ -1,4 +1,21 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/classes/access/[slug]/page": "app/classes/access/[slug]/page.js",
+  "/about/page": "app/about/page.js",
+  "/classes/access/page": "app/classes/access/page.js",
+  "/classes/ttte/[slug]/page": "app/classes/ttte/[slug]/page.js",
+  "/coaching/page": "app/coaching/page.js",
+  "/conscious-mornings/page": "app/conscious-mornings/page.js",
+  "/classes/be-the-change/[slug]/page": "app/classes/be-the-change/[slug]/page.js",
   "/page": "app/page.js",
-  "/about/page": "app/about/page.js"
+  "/gifts/experience/page": "app/gifts/experience/page.js",
+  "/gifts/read/page": "app/gifts/read/page.js",
+  "/events/page": "app/events/page.js",
+  "/classes/ttte/page": "app/classes/ttte/page.js",
+  "/gifts/see/page": "app/gifts/see/page.js",
+  "/gifts/listen/page": "app/gifts/listen/page.js",
+  "/classes/be-the-change/page": "app/classes/be-the-change/page.js",
+  "/gifts/page": "app/gifts/page.js",
+  "/sessions/page": "app/sessions/page.js"
 }
