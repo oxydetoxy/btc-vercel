@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MoneyKitCta } from "@/components/MoneyKitCta";
 
 const gifts = [
   { title: "Read", href: "/gifts/read", description: "Books and written resources." },
@@ -32,13 +33,7 @@ export default function GiftsPage() {
           <p className="font-body text-stone mt-2">
             Break free from financial barriers. Our free Money Tool Kit is the first step towards prosperity.
           </p>
-          <button
-            type="button"
-            className="mt-6 btn-primary"
-            onClick={() => alert("Connect this to your signup form or landing page.")}
-          >
-            Get My Free Kit
-          </button>
+          <MoneyKitCta />
         </div>
         <div className="mt-16 grid sm:grid-cols-2 gap-6">
           {gifts.map((g) => (
