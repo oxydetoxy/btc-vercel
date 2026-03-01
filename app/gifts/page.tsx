@@ -17,20 +17,20 @@ export default function GiftsPage() {
   return (
     <div className="pt-32 section-padding">
       <div className="container-wide">
-        <span className="font-accent text-xs uppercase tracking-[0.3em] text-stone">
+        <span className="font-accent text-xs uppercase tracking-[0.3em] text-black/60">
           Free Resources
         </span>
-        <h1 className="font-display text-display-lg font-semibold text-ink mt-4">
+        <h1 className="font-display text-display-lg font-semibold text-black mt-4">
           Gifts
         </h1>
-        <p className="font-body text-stone mt-3 max-w-2xl">
+        <p className="font-body text-black/60 mt-3 max-w-2xl">
           Explore our free resources: read, listen, see, and experience.
         </p>
-        <div id="money-kit" className="mt-16 p-8 md:p-10 bg-bone/40 border border-bone">
-          <h2 className="font-display text-xl font-semibold text-ink">
+        <div id="money-kit" className="mt-16 p-8 md:p-10 bg-white/20 border border-white/20">
+          <h2 className="font-display text-xl font-semibold text-black">
             Get Your Money Tool Kit
           </h2>
-          <p className="font-body text-stone mt-2">
+          <p className="font-body text-black/60 mt-2">
             Break free from financial barriers. Our free Money Tool Kit is the first step towards prosperity.
           </p>
           <MoneyKitCta />
@@ -40,10 +40,10 @@ export default function GiftsPage() {
             <Link
               key={g.href}
               href={g.href}
-              className="block p-6 border border-bone hover:bg-bone/20 transition-colors"
+              className="block p-6 border border-white/20 hover:bg-white/10 transition-colors"
             >
-              <h3 className="font-display text-xl font-semibold text-ink">{g.title}</h3>
-              <p className="font-body text-stone text-sm mt-2">{g.description}</p>
+              <h3 className="font-display text-xl font-semibold text-black">{g.title}</h3>
+              <p className="font-body text-black/60 text-sm mt-2">{g.description}</p>
             </Link>
           ))}
         </div>

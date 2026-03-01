@@ -1,4 +1,5 @@
 import { Hero } from "@/components/Hero";
+import { MissionBlock } from "@/components/MissionBlock";
 import { MediaBanner } from "@/components/MediaBanner";
 import { AboutBlock } from "@/components/AboutBlock";
 import { OfferingsGrid } from "@/components/OfferingsGrid";
@@ -9,10 +10,11 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <MediaBanner />
+      <MissionBlock />
       <AboutBlock />
       <OfferingsGrid />
       <Testimonials />
+      <MediaBanner />
       <CtaStrip />
     </>
   );

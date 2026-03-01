@@ -10,18 +10,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // BTC brand palette (COLOUR PALETTE)
-        "btc-hot": "#DD3860", // Hot Pink – energy, passion, transformation
-        pastel: "#FFE9EA",     // Pastel Pink – compassion, nurturing, love
-        mint: "#CDF9F5",       // Mint Green – growth, renewal, balance
-        teal: "#0DA694",      // Biseliri Green – trust, peace, clarity
-        golden: "#E0A404",    // Golden – luxury, success, wisdom
-        // Semantic mapping
-        cream: "#FFE9EA",     // pastel pink (main bg)
-        bone: "#CDF9F5",      // mint (borders, alt bg)
-        ink: "#0A2522",       // dark teal (text, dark sections)
-        charcoal: "#061A18",  // darker teal (hero bg, overlays)
-        stone: "#5A7A76",     // muted teal (secondary text)
+        // White + Golden only
+        golden: "#E0A404",
+        white: "#FFFFFF",
+        black: "#000000",
       },
       fontFamily: {
         display: ["var(--font-display)", "serif"],

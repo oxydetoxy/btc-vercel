@@ -20,8 +20,8 @@ export function Logo({ variant = "header", className = "" }: LogoProps) {
     return (
       <Link
         href="/"
-        className={`font-display font-semibold tracking-tight hover:opacity-90 transition-opacity ${
-          isFooter ? "text-2xl text-cream" : "text-2xl md:text-3xl text-ink"
+        className={`font-display font-semibold tracking-tight hover:opacity-90 transition-opacity whitespace-nowrap ${
+          isFooter ? "text-2xl text-black" : "text-2xl md:text-3xl text-black"
         } ${className}`}
       >
         Be The Change
@@ -30,7 +30,7 @@ export function Logo({ variant = "header", className = "" }: LogoProps) {
   }
 
   return (
-    <Link href="/" className={`block ${className}`}>
+    <Link href="/" className={`block shrink-0 ${className}`}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={LOGO_SOURCES[sourceIndex]}

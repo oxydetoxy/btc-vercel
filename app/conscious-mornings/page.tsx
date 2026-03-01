@@ -9,16 +9,16 @@ export default function ConsciousMorningsPage() {
   return (
     <div className="pt-32 section-padding">
       <div className="container-narrow">
-        <span className="font-accent text-xs uppercase tracking-[0.3em] text-stone">
+        <span className="font-accent text-xs uppercase tracking-[0.3em] text-black/60">
           Daily Practice
         </span>
-        <h1 className="font-display text-display-lg font-semibold text-ink mt-4">
+        <h1 className="font-display text-display-lg font-semibold text-black mt-4">
           Conscious Mornings
         </h1>
-        <p className="font-display text-display-md text-charcoal/90 mt-6">
+        <p className="font-display text-display-md text-black/90 mt-6">
           Create a powerful morning ritual for your well-being.
         </p>
-        <div className="mt-10 space-y-6 font-body text-charcoal/90 leading-relaxed">
+        <div className="mt-10 space-y-6 font-body text-black/90 leading-relaxed">
           <p>
             A 30-minute daily practice combining mantras, clearings, affirmations, energy exercises, and silent satsangs to help you cultivate alignment with your inner self and invite abundance into your life.
           </p>

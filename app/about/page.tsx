@@ -9,14 +9,14 @@ export default function AboutPage() {
   return (
     <div className="pt-32 section-padding">
       <div className="container-narrow">
-        <span className="font-accent text-xs uppercase tracking-[0.3em] text-stone">
+        <span className="font-accent text-xs uppercase tracking-[0.3em] text-black/60">
           About Us
         </span>
-        <h1 className="font-display text-display-lg font-semibold text-ink mt-4">
+        <h1 className="font-display text-display-lg font-semibold text-black mt-4">
           {about.name}
         </h1>
-        <p className="font-body text-stone mt-2">{about.title}</p>
-        <div className="mt-12 space-y-6 font-body text-charcoal/90 leading-relaxed">
+        <p className="font-body text-black/60 mt-2">{about.title}</p>
+        <div className="mt-12 space-y-6 font-body text-black/90 leading-relaxed">
           <p>{about.bio}</p>
           <p>
             {site.tagline}

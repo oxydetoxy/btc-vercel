@@ -24,6 +24,12 @@ export const images = {
     hero: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1920&q=80",
     about: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
     offering: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80",
+    offerings: [
+      "https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800&q=80", // sunrise/morning
+      "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80", // meditation
+      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",   // book
+      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80", // coaching
+    ],
     banners: [
       "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80",
       "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80",

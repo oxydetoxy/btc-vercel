@@ -2,30 +2,29 @@ import { testimonials } from "@/lib/content";
 
 export function Testimonials() {
   return (
-    <section className="relative section-padding bg-ink text-cream overflow-hidden">
-      {/* Subtle gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-charcoal/50 via-transparent to-ink/30 pointer-events-none" aria-hidden />
-      <div className="container-wide relative">
-        <span className="font-accent text-xs uppercase tracking-[0.3em] text-cream/60">
+    <section className="section-padding bg-white">
+      <div className="container-wide">
+        <p className="font-accent text-[10px] uppercase tracking-[0.4em] text-golden mb-4">
           Testimonials
-        </span>
-        <h2 className="font-display text-display-lg font-semibold text-cream mt-4 mb-16">
+        </p>
+        <h2 className="font-display text-display-lg font-semibold text-black">
           What People Say
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+        <div className="mt-4 h-px w-16 bg-golden" aria-hidden />
+        <div className="mt-16 grid sm:grid-cols-2 gap-10 lg:gap-14">
           {testimonials.map((t) => (
             <blockquote
               key={t.author}
-              className="relative border-l-2 border-cream/30 pl-6 py-2 bg-cream/5 rounded-r-lg py-6 pr-6 -ml-2"
+              className="group relative pl-8 border-l-2 border-golden/50 hover:border-golden transition-colors duration-300 py-2"
             >
-              <p className="font-body text-cream/90 text-sm leading-relaxed italic">
+              <p className="font-body text-black/80 text-base leading-relaxed italic">
                 &ldquo;{t.quote}&rdquo;
               </p>
-              <footer className="mt-4">
-                <cite className="font-accent text-xs uppercase tracking-wider not-italic text-cream/80">
+              <footer className="mt-6">
+                <cite className="font-accent text-xs uppercase tracking-wider not-italic text-black font-medium">
                   {t.author}
                 </cite>
-                <span className="font-body text-xs text-cream/50 block mt-0.5">
+                <span className="font-body text-xs text-black/50 block mt-1">
                   {t.session}
                 </span>
               </footer>

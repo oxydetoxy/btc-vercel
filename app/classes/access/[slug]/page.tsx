@@ -17,13 +17,13 @@ export default async function AccessClassPage({
   return (
     <div className="pt-32 section-padding">
       <div className="container-narrow">
-        <Link href="/classes/access" className="font-accent text-xs uppercase tracking-wider text-stone hover:text-ink">
+        <Link href="/classes/access" className="font-accent text-xs uppercase tracking-wider text-black/60 hover:text-golden">
           ← Access Consciousness
         </Link>
-        <h1 className="font-display text-display-lg font-semibold text-ink mt-6">
+        <h1 className="font-display text-display-lg font-semibold text-black mt-6">
           {item.name}
         </h1>
-        <p className="font-body text-stone mt-4">
+        <p className="font-body text-black/60 mt-4">
           Contact us for dates and registration.
         </p>
         <Link href="/contact" className="inline-block mt-8 btn-primary">
